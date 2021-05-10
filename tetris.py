@@ -1,11 +1,7 @@
 import pygame
 import random
  
-"""
-10 x 20 square grid
-shapes: S, Z, I, O, J, L, T
-represented in order by 0 - 6
-"""
+
  
 pygame.font.init()
  
@@ -20,7 +16,7 @@ top_left_x = (s_width - play_width) // 2
 top_left_y = s_height - play_height
  
  
-# SHAPE FORMATS
+
  
 S = [['.....',
       '.....s',
